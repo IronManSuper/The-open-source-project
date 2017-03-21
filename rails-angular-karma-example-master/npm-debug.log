@@ -1,0 +1,563 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose readDependencies loading dependencies from D:\WebstormProjects\rails-angular-karma-example-master\package.json
+5 warn package.json rails-angular-karma-example@ No repository field.
+6 warn package.json rails-angular-karma-example@ No license field.
+7 verbose install where, deps [ 'D:\\WebstormProjects\\rails-angular-karma-example-master',
+7 verbose install   [ 'karma',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-coffee-preprocessor',
+7 verbose install     'karma-slim-preprocessor',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'karma-ng-html2js-preprocessor' ] ]
+8 verbose install where, peers [ 'D:\\WebstormProjects\\rails-angular-karma-example-master',
+8 verbose install   [] ]
+9 verbose installManyTop reading for lifecycle D:\WebstormProjects\rails-angular-karma-example-master\package.json
+10 info preinstall rails-angular-karma-example@
+11 verbose readDependencies loading dependencies from D:\WebstormProjects\rails-angular-karma-example-master\package.json
+12 silly cache add args [ 'karma@>= 0.12.16', null ]
+13 verbose cache add spec karma@>= 0.12.16
+14 silly cache add args [ 'karma-jasmine@>= 0.2.2', null ]
+15 verbose cache add spec karma-jasmine@>= 0.2.2
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'karma@>= 0.12.16',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'karma',
+16 silly cache add   rawSpec: '>= 0.12.16',
+16 silly cache add   spec: '>=0.12.16',
+16 silly cache add   type: 'range' }
+17 silly addNamed karma@>=0.12.16
+18 verbose addNamed ">=0.12.16" is a valid semver range for karma
+19 silly addNameRange { name: 'karma', range: '>=0.12.16', hasData: false }
+20 silly mapToRegistry name karma
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npm.taobao.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'karma',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'karma',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npm.taobao.org/karma
+25 verbose addNameRange registry:https://registry.npm.taobao.org/karma not in flight; fetching
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'karma-jasmine@>= 0.2.2',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'karma-jasmine',
+26 silly cache add   rawSpec: '>= 0.2.2',
+26 silly cache add   spec: '>=0.2.2',
+26 silly cache add   type: 'range' }
+27 silly addNamed karma-jasmine@>=0.2.2
+28 verbose addNamed ">=0.2.2" is a valid semver range for karma-jasmine
+29 silly addNameRange { name: 'karma-jasmine', range: '>=0.2.2', hasData: false }
+30 silly mapToRegistry name karma-jasmine
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npm.taobao.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'karma-jasmine',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   name: 'karma-jasmine',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npm.taobao.org/karma-jasmine
+35 verbose addNameRange registry:https://registry.npm.taobao.org/karma-jasmine not in flight; fetching
+36 silly cache add args [ 'karma-coffee-preprocessor@>= 0.2.1', null ]
+37 verbose cache add spec karma-coffee-preprocessor@>= 0.2.1
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'karma-coffee-preprocessor@>= 0.2.1',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'karma-coffee-preprocessor',
+38 silly cache add   rawSpec: '>= 0.2.1',
+38 silly cache add   spec: '>=0.2.1',
+38 silly cache add   type: 'range' }
+39 silly addNamed karma-coffee-preprocessor@>=0.2.1
+40 verbose addNamed ">=0.2.1" is a valid semver range for karma-coffee-preprocessor
+41 silly addNameRange { name: 'karma-coffee-preprocessor',
+41 silly addNameRange   range: '>=0.2.1',
+41 silly addNameRange   hasData: false }
+42 silly mapToRegistry name karma-coffee-preprocessor
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npm.taobao.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'karma-coffee-preprocessor',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'karma-coffee-preprocessor',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npm.taobao.org/karma-coffee-preprocessor
+47 verbose addNameRange registry:https://registry.npm.taobao.org/karma-coffee-preprocessor not in flight; fetching
+48 silly cache add args [ 'karma-slim-preprocessor@>= 0.0.1', null ]
+49 verbose cache add spec karma-slim-preprocessor@>= 0.0.1
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'karma-slim-preprocessor@>= 0.0.1',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'karma-slim-preprocessor',
+50 silly cache add   rawSpec: '>= 0.0.1',
+50 silly cache add   spec: '>=0.0.1',
+50 silly cache add   type: 'range' }
+51 silly addNamed karma-slim-preprocessor@>=0.0.1
+52 verbose addNamed ">=0.0.1" is a valid semver range for karma-slim-preprocessor
+53 silly addNameRange { name: 'karma-slim-preprocessor',
+53 silly addNameRange   range: '>=0.0.1',
+53 silly addNameRange   hasData: false }
+54 silly mapToRegistry name karma-slim-preprocessor
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npm.taobao.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'karma-slim-preprocessor',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'karma-slim-preprocessor',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npm.taobao.org/karma-slim-preprocessor
+59 verbose addNameRange registry:https://registry.npm.taobao.org/karma-slim-preprocessor not in flight; fetching
+60 silly cache add args [ 'karma-phantomjs-launcher@>= 0.1.4', null ]
+61 verbose cache add spec karma-phantomjs-launcher@>= 0.1.4
+62 silly cache add parsed spec Result {
+62 silly cache add   raw: 'karma-phantomjs-launcher@>= 0.1.4',
+62 silly cache add   scope: null,
+62 silly cache add   name: 'karma-phantomjs-launcher',
+62 silly cache add   rawSpec: '>= 0.1.4',
+62 silly cache add   spec: '>=0.1.4',
+62 silly cache add   type: 'range' }
+63 silly addNamed karma-phantomjs-launcher@>=0.1.4
+64 verbose addNamed ">=0.1.4" is a valid semver range for karma-phantomjs-launcher
+65 silly addNameRange { name: 'karma-phantomjs-launcher',
+65 silly addNameRange   range: '>=0.1.4',
+65 silly addNameRange   hasData: false }
+66 silly mapToRegistry name karma-phantomjs-launcher
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npm.taobao.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'karma-phantomjs-launcher',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   name: 'karma-phantomjs-launcher',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npm.taobao.org/karma-phantomjs-launcher
+71 verbose addNameRange registry:https://registry.npm.taobao.org/karma-phantomjs-launcher not in flight; fetching
+72 silly cache add args [ 'karma-ng-html2js-preprocessor@git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+72 silly cache add   null ]
+73 verbose cache add spec karma-ng-html2js-preprocessor@git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'karma-ng-html2js-preprocessor@git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'karma-ng-html2js-preprocessor',
+74 silly cache add   rawSpec: 'git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add   spec: 'git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add   type: 'hosted',
+74 silly cache add   hosted:
+74 silly cache add    { type: 'github',
+74 silly cache add      ssh: 'git@github.com:monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add      sshUrl: 'git+ssh://git@github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add      httpsUrl: 'git+https://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add      gitUrl: 'git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix',
+74 silly cache add      shortcut: 'github:monterail/karma-ng-html2js-preprocessor#feature/strip-sufix',
+74 silly cache add      directUrl: 'https://raw.githubusercontent.com/monterail/karma-ng-html2js-preprocessor/feature%2Fstrip-sufix/package.json' } }
+75 verbose addRemoteGit caching git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix
+76 verbose addRemoteGit git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix is a repository hosted by github
+77 silly tryClone cloning git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix via git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix
+78 verbose tryClone git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b not in flight; caching
+79 verbose correctMkdir C:\Program Files\nodejs\node_cache\_git-remotes correctMkdir not in flight; initializing
+80 verbose request uri https://registry.npm.taobao.org/karma-jasmine
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 10:23:08
+83 verbose request id b3f7c6e1432a77ab
+84 verbose etag "e67c-bEkQYf8dQ7zpN0U7O1oc1w"
+85 http request GET https://registry.npm.taobao.org/karma-jasmine
+86 verbose request uri https://registry.npm.taobao.org/karma-slim-preprocessor
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 10:23:08
+89 verbose etag "1c0c-AJEllri+RcbyJ20Gq/ZKPA"
+90 http request GET https://registry.npm.taobao.org/karma-slim-preprocessor
+91 verbose request uri https://registry.npm.taobao.org/karma
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 10:23:08
+94 verbose etag "149708-hEc+IIlbRVwXbRhCF/GCow"
+95 http request GET https://registry.npm.taobao.org/karma
+96 verbose request uri https://registry.npm.taobao.org/karma-coffee-preprocessor
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 10:23:08
+99 verbose etag "6796-zrsZT6m55pzgJptQh8J4dg"
+100 http request GET https://registry.npm.taobao.org/karma-coffee-preprocessor
+101 verbose request uri https://registry.npm.taobao.org/karma-phantomjs-launcher
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 10:23:08
+104 verbose etag "97a7-yJmF8w0y8Ek9OXGSzxUvMw"
+105 http request GET https://registry.npm.taobao.org/karma-phantomjs-launcher
+106 info git [ 'config', '--get', 'remote.origin.url' ]
+107 http 304 https://registry.npm.taobao.org/karma-slim-preprocessor
+108 verbose headers { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+108 verbose headers   connection: 'keep-alive',
+108 verbose headers   'x-current-requests': '1',
+108 verbose headers   etag: '"1c0c-AJEllri+RcbyJ20Gq/ZKPA"',
+108 verbose headers   'x-readtime': '19' }
+109 silly get cb [ 304,
+109 silly get   { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+109 silly get     connection: 'keep-alive',
+109 silly get     'x-current-requests': '1',
+109 silly get     etag: '"1c0c-AJEllri+RcbyJ20Gq/ZKPA"',
+109 silly get     'x-readtime': '19' } ]
+110 verbose etag https://registry.npm.taobao.org/karma-slim-preprocessor from cache
+111 verbose get saving karma-slim-preprocessor to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\karma-slim-preprocessor\.cache.json
+112 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+113 http 304 https://registry.npm.taobao.org/karma-jasmine
+114 verbose headers { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+114 verbose headers   connection: 'keep-alive',
+114 verbose headers   'x-current-requests': '1',
+114 verbose headers   etag: '"e67c-bEkQYf8dQ7zpN0U7O1oc1w"',
+114 verbose headers   'x-readtime': '26' }
+115 silly get cb [ 304,
+115 silly get   { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+115 silly get     connection: 'keep-alive',
+115 silly get     'x-current-requests': '1',
+115 silly get     etag: '"e67c-bEkQYf8dQ7zpN0U7O1oc1w"',
+115 silly get     'x-readtime': '26' } ]
+116 verbose etag https://registry.npm.taobao.org/karma-jasmine from cache
+117 verbose get saving karma-jasmine to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\karma-jasmine\.cache.json
+118 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+119 silly addNameRange number 2 { name: 'karma-jasmine', range: '>=0.2.2', hasData: true }
+120 silly addNameRange versions [ 'karma-jasmine',
+120 silly addNameRange   [ '1.1.0',
+120 silly addNameRange     '1.0.2',
+120 silly addNameRange     '1.0.0',
+120 silly addNameRange     '0.3.8',
+120 silly addNameRange     '0.3.7',
+120 silly addNameRange     '0.1.6',
+120 silly addNameRange     '0.3.6',
+120 silly addNameRange     '0.3.5',
+120 silly addNameRange     '0.3.4',
+120 silly addNameRange     '0.3.3',
+120 silly addNameRange     '0.3.2',
+120 silly addNameRange     '0.3.1',
+120 silly addNameRange     '0.3.0',
+120 silly addNameRange     '0.2.3',
+120 silly addNameRange     '0.2.2',
+120 silly addNameRange     '0.2.1',
+120 silly addNameRange     '0.2.0',
+120 silly addNameRange     '0.1.5',
+120 silly addNameRange     '0.1.4',
+120 silly addNameRange     '0.1.3',
+120 silly addNameRange     '0.1.2',
+120 silly addNameRange     '0.1.1',
+120 silly addNameRange     '0.1.0',
+120 silly addNameRange     '0.0.3',
+120 silly addNameRange     '0.0.2',
+120 silly addNameRange     '0.0.1' ] ]
+121 silly addNamed karma-jasmine@1.1.0
+122 verbose addNamed "1.1.0" is a plain semver version for karma-jasmine
+123 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+123 warn addRemoteGit
+123 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:213:12)
+123 warn addRemoteGit     at emitTwo (events.js:87:13)
+123 warn addRemoteGit     at ChildProcess.emit (events.js:172:7)
+123 warn addRemoteGit     at maybeClose (internal/child_process.js:829:16)
+123 warn addRemoteGit     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+123 warn addRemoteGit  git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix resetting remote C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+123 warn addRemoteGit ]
+123 warn addRemoteGit   killed: false,
+123 warn addRemoteGit   code: 1,
+123 warn addRemoteGit   signal: null,
+123 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+124 info resetRemote resetting C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b for git://github.com/monterail/karma-ng-html2js-preprocessor.git#feature/strip-sufix
+125 silly gentlyRm C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b is being purged
+126 verbose gentlyRm don't care about contents; nuking C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b
+127 silly addNameRange number 2 { name: 'karma-slim-preprocessor',
+127 silly addNameRange   range: '>=0.0.1',
+127 silly addNameRange   hasData: true }
+128 silly addNameRange versions [ 'karma-slim-preprocessor',
+128 silly addNameRange   [ '0.0.6', '0.0.4', '0.0.3', '0.0.1' ] ]
+129 silly addNamed karma-slim-preprocessor@0.0.6
+130 verbose addNamed "0.0.6" is a plain semver version for karma-slim-preprocessor
+131 silly vacuum-fs purging C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b
+132 http 304 https://registry.npm.taobao.org/karma-phantomjs-launcher
+133 verbose headers { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-current-requests': '1',
+133 verbose headers   etag: '"97a7-yJmF8w0y8Ek9OXGSzxUvMw"',
+133 verbose headers   'x-readtime': '39' }
+134 silly get cb [ 304,
+134 silly get   { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-current-requests': '1',
+134 silly get     etag: '"97a7-yJmF8w0y8Ek9OXGSzxUvMw"',
+134 silly get     'x-readtime': '39' } ]
+135 verbose etag https://registry.npm.taobao.org/karma-phantomjs-launcher from cache
+136 verbose get saving karma-phantomjs-launcher to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\karma-phantomjs-launcher\.cache.json
+137 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+138 silly cache afterAdd karma-jasmine@1.1.0
+139 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-jasmine\1.1.0\package\package.json not in flight; writing
+140 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+141 silly cache afterAdd karma-slim-preprocessor@0.0.6
+142 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-slim-preprocessor\0.0.6\package\package.json not in flight; writing
+143 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+144 silly vacuum-fs quitting because other entries in C:\Program Files\nodejs\node_cache\_git-remotes
+145 silly addNameRange number 2 { name: 'karma-phantomjs-launcher',
+145 silly addNameRange   range: '>=0.1.4',
+145 silly addNameRange   hasData: true }
+146 silly addNameRange versions [ 'karma-phantomjs-launcher',
+146 silly addNameRange   [ '1.0.2',
+146 silly addNameRange     '1.0.1',
+146 silly addNameRange     '1.0.0',
+146 silly addNameRange     '0.2.3',
+146 silly addNameRange     '0.2.2',
+146 silly addNameRange     '0.2.1',
+146 silly addNameRange     '0.2.0',
+146 silly addNameRange     '0.1.4',
+146 silly addNameRange     '0.1.3',
+146 silly addNameRange     '0.1.2',
+146 silly addNameRange     '0.1.1',
+146 silly addNameRange     '0.1.0',
+146 silly addNameRange     '0.0.3',
+146 silly addNameRange     '0.0.2',
+146 silly addNameRange     '0.0.1' ] ]
+147 silly addNamed karma-phantomjs-launcher@1.0.2
+148 verbose addNamed "1.0.2" is a plain semver version for karma-phantomjs-launcher
+149 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-slim-preprocessor\0.0.6\package\package.json written
+150 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-jasmine\1.1.0\package\package.json written
+151 silly cache afterAdd karma-phantomjs-launcher@1.0.2
+152 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-phantomjs-launcher\1.0.2\package\package.json not in flight; writing
+153 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+154 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-phantomjs-launcher\1.0.2\package\package.json written
+155 info git [ 'clone',
+155 info git   '--template=C:\\Program Files\\nodejs\\node_cache\\_git-remotes\\_templates',
+155 info git   '--mirror',
+155 info git   'git://github.com/monterail/karma-ng-html2js-preprocessor.git',
+155 info git   'C:\\Program Files\\nodejs\\node_cache\\_git-remotes\\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b' ]
+156 http 304 https://registry.npm.taobao.org/karma
+157 verbose headers { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'x-current-requests': '1',
+157 verbose headers   etag: '"149708-hEc+IIlbRVwXbRhCF/GCow"',
+157 verbose headers   'x-readtime': '170' }
+158 silly get cb [ 304,
+158 silly get   { date: 'Fri, 06 Jan 2017 02:23:14 GMT',
+158 silly get     connection: 'keep-alive',
+158 silly get     'x-current-requests': '1',
+158 silly get     etag: '"149708-hEc+IIlbRVwXbRhCF/GCow"',
+158 silly get     'x-readtime': '170' } ]
+159 verbose etag https://registry.npm.taobao.org/karma from cache
+160 verbose get saving karma to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\karma\.cache.json
+161 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+162 silly addNameRange number 2 { name: 'karma', range: '>=0.12.16', hasData: true }
+163 silly addNameRange versions [ 'karma',
+163 silly addNameRange   [ '1.3.0',
+163 silly addNameRange     '1.2.0',
+163 silly addNameRange     '1.1.2',
+163 silly addNameRange     '1.1.1',
+163 silly addNameRange     '1.1.0',
+163 silly addNameRange     '1.0.0',
+163 silly addNameRange     '0.13.22',
+163 silly addNameRange     '0.13.21',
+163 silly addNameRange     '0.13.20',
+163 silly addNameRange     '0.13.19',
+163 silly addNameRange     '0.13.18',
+163 silly addNameRange     '0.13.17',
+163 silly addNameRange     '0.13.16',
+163 silly addNameRange     '0.13.15',
+163 silly addNameRange     '0.13.14',
+163 silly addNameRange     '0.13.13',
+163 silly addNameRange     '0.13.12',
+163 silly addNameRange     '0.13.11',
+163 silly addNameRange     '0.13.10',
+163 silly addNameRange     '0.13.9',
+163 silly addNameRange     '0.13.8',
+163 silly addNameRange     '0.13.7',
+163 silly addNameRange     '0.13.6',
+163 silly addNameRange     '0.13.5',
+163 silly addNameRange     '0.13.4',
+163 silly addNameRange     '0.13.3',
+163 silly addNameRange     '0.13.2',
+163 silly addNameRange     '0.13.1',
+163 silly addNameRange     '0.13.0',
+163 silly addNameRange     '0.13.0-rc.9',
+163 silly addNameRange     '0.13.0-rc.8',
+163 silly addNameRange     '0.13.0-rc.7',
+163 silly addNameRange     '0.13.0-rc.6',
+163 silly addNameRange     '0.13.0-rc.5',
+163 silly addNameRange     '0.12.37',
+163 silly addNameRange     '0.13.0-rc.4',
+163 silly addNameRange     '0.12.36',
+163 silly addNameRange     '0.13.0-rc.3',
+163 silly addNameRange     '0.12.35',
+163 silly addNameRange     '0.13.0-rc.2',
+163 silly addNameRange     '0.12.34',
+163 silly addNameRange     '0.13.0-rc.1',
+163 silly addNameRange     '0.12.33',
+163 silly addNameRange     '0.13.0-rc.0',
+163 silly addNameRange     '0.12.32',
+163 silly addNameRange     '0.12.32-beta.0',
+163 silly addNameRange     '0.12.24-dev-socketio10-2',
+163 silly addNameRange     '0.12.24-dev-socketio10',
+163 silly addNameRange     '0.12.24-dev-test',
+163 silly addNameRange     '0.12.28-beta-f65c864',
+163 silly addNameRange     '0.12.31',
+163 silly addNameRange     '0.12.30',
+163 silly addNameRange     '0.12.29',
+163 silly addNameRange     '0.12.28-beta-b9be580',
+163 silly addNameRange     '0.12.28',
+163 silly addNameRange     '0.12.27',
+163 silly addNameRange     '0.12.26',
+163 silly addNameRange     '0.12.25-beta-ad5bc24',
+163 silly addNameRange     '0.12.25-beta-37a7958',
+163 silly addNameRange     '0.12.25',
+163 silly addNameRange     '0.12.24-beta-6cf7955',
+163 silly addNameRange     '0.12.24',
+163 silly addNameRange     '0.12.23',
+163 silly addNameRange     '0.12.22',
+163 silly addNameRange     '0.12.21',
+163 silly addNameRange     '0.12.20',
+163 silly addNameRange     '0.12.19',
+163 silly addNameRange     '0.12.18',
+163 silly addNameRange     '0.12.17',
+163 silly addNameRange     '0.12.16-beta-905422d',
+163 silly addNameRange     '0.12.16',
+163 silly addNameRange     '0.12.15',
+163 silly addNameRange     '0.12.14',
+163 silly addNameRange     '0.12.13',
+163 silly addNameRange     '0.12.11-beta-3029418',
+163 silly addNameRange     '0.12.12',
+163 silly addNameRange     '0.12.11',
+163 silly addNameRange     '0.12.10',
+163 silly addNameRange     '0.10.10',
+163 silly addNameRange     '0.10.6',
+163 silly addNameRange     '0.9.6',
+163 silly addNameRange     '0.12.9',
+163 silly addNameRange     '0.12.8',
+163 silly addNameRange     '0.12.7',
+163 silly addNameRange     '0.12.6-beta-43e6e28',
+163 silly addNameRange     '0.12.6',
+163 silly addNameRange     '0.12.5',
+163 silly addNameRange     '0.12.4',
+163 silly addNameRange     '0.12.3',
+163 silly addNameRange     '0.12.2',
+163 silly addNameRange     '0.12.1',
+163 silly addNameRange     '0.12.0',
+163 silly addNameRange     '0.11.14',
+163 silly addNameRange     '0.11.13',
+163 silly addNameRange     '0.11.12-dev2',
+163 silly addNameRange     '0.11.12-dev',
+163 silly addNameRange     '0.10.9',
+163 silly addNameRange     '0.11.11-dev',
+163 silly addNameRange     '0.11.12',
+163 silly addNameRange     '0.11.11',
+163 silly addNameRange     '0.11.10',
+163 silly addNameRange     '0.10.8',
+163 silly addNameRange     '0.11.9',
+163 silly addNameRange     '0.11.8',
+163 silly addNameRange     '0.11.7',
+163 silly addNameRange     '0.10.7',
+163 silly addNameRange     '0.11.6',
+163 silly addNameRange     '0.11.5',
+163 silly addNameRange     '0.11.4',
+163 silly addNameRange     '0.10.5',
+163 silly addNameRange     '0.11.3',
+163 silly addNameRange     '0.11.2',
+163 silly addNameRange     '0.10.4',
+163 silly addNameRange     '0.10.3',
+163 silly addNameRange     '0.11.1',
+163 silly addNameRange     '0.11.0',
+163 silly addNameRange     '0.10.2',
+163 silly addNameRange     '0.10.1',
+163 silly addNameRange     '0.10.0',
+163 silly addNameRange     '0.9.8',
+163 silly addNameRange     '0.9.7',
+163 silly addNameRange     '0.8.8',
+163 silly addNameRange     '0.9.5',
+163 silly addNameRange     '0.8.7',
+163 silly addNameRange     '0.9.4',
+163 silly addNameRange     '0.8.6',
+163 silly addNameRange     '0.9.3',
+163 silly addNameRange     '0.9.2-dart',
+163 silly addNameRange     '0.9.2',
+163 silly addNameRange     '0.8.5',
+163 silly addNameRange     '0.9.1',
+163 silly addNameRange     '0.8.4',
+163 silly addNameRange     '0.9.0',
+163 silly addNameRange     '0.8.3',
+163 silly addNameRange     '0.8.2',
+163 silly addNameRange     '0.8.1',
+163 silly addNameRange     '0.9.0-dart',
+163 silly addNameRange     '0.8.0' ] ]
+164 silly addNamed karma@1.3.0
+165 verbose addNamed "1.3.0" is a plain semver version for karma
+166 silly cache afterAdd karma@1.3.0
+167 verbose afterAdd C:\Program Files\nodejs\node_cache\karma\1.3.0\package\package.json not in flight; writing
+168 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+169 verbose afterAdd C:\Program Files\nodejs\node_cache\karma\1.3.0\package\package.json written
+170 error git clone --template=C:\Program Files\nodejs\node_cache\_git-remotes\_templates --mirror git://github.com/monterail/karma-ng-html2js-preprocessor.git C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b: Cloning into bare repository 'C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b'...
+170 error git clone --template=C:\Program Files\nodejs\node_cache\_git-remotes\_templates --mirror git://github.com/monterail/karma-ng-html2js-preprocessor.git C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b: fatal: remote error:
+170 error git clone --template=C:\Program Files\nodejs\node_cache\_git-remotes\_templates --mirror git://github.com/monterail/karma-ng-html2js-preprocessor.git C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b:   Repository not found.
+171 http 304 https://registry.npm.taobao.org/karma-coffee-preprocessor
+172 verbose headers { date: 'Fri, 06 Jan 2017 02:23:17 GMT',
+172 verbose headers   connection: 'keep-alive',
+172 verbose headers   'x-current-requests': '1',
+172 verbose headers   etag: '"6796-zrsZT6m55pzgJptQh8J4dg"',
+172 verbose headers   'x-readtime': '21' }
+173 silly get cb [ 304,
+173 silly get   { date: 'Fri, 06 Jan 2017 02:23:17 GMT',
+173 silly get     connection: 'keep-alive',
+173 silly get     'x-current-requests': '1',
+173 silly get     etag: '"6796-zrsZT6m55pzgJptQh8J4dg"',
+173 silly get     'x-readtime': '21' } ]
+174 verbose etag https://registry.npm.taobao.org/karma-coffee-preprocessor from cache
+175 verbose get saving karma-coffee-preprocessor to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\karma-coffee-preprocessor\.cache.json
+176 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+177 silly addNameRange number 2 { name: 'karma-coffee-preprocessor',
+177 silly addNameRange   range: '>=0.2.1',
+177 silly addNameRange   hasData: true }
+178 silly addNameRange versions [ 'karma-coffee-preprocessor',
+178 silly addNameRange   [ '1.0.1',
+178 silly addNameRange     '1.0.0',
+178 silly addNameRange     '0.3.0',
+178 silly addNameRange     '0.2.1',
+178 silly addNameRange     '0.2.0',
+178 silly addNameRange     '0.1.3',
+178 silly addNameRange     '0.1.2',
+178 silly addNameRange     '0.1.1',
+178 silly addNameRange     '0.1.0',
+178 silly addNameRange     '0.0.4',
+178 silly addNameRange     '0.0.3',
+178 silly addNameRange     '0.0.2',
+178 silly addNameRange     '0.0.1' ] ]
+179 silly addNamed karma-coffee-preprocessor@1.0.1
+180 verbose addNamed "1.0.1" is a plain semver version for karma-coffee-preprocessor
+181 silly cache afterAdd karma-coffee-preprocessor@1.0.1
+182 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-coffee-preprocessor\1.0.1\package\package.json not in flight; writing
+183 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+184 verbose afterAdd C:\Program Files\nodejs\node_cache\karma-coffee-preprocessor\1.0.1\package\package.json written
+185 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Program Files\nodejs\node_cache\_git-remotes\_templates --mirror git://github.com/monterail/karma-ng-html2js-preprocessor.git C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b
+185 verbose stack Cloning into bare repository 'C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b'...
+185 verbose stack fatal: remote error:
+185 verbose stack   Repository not found.
+185 verbose stack
+185 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+185 verbose stack     at emitTwo (events.js:87:13)
+185 verbose stack     at ChildProcess.emit (events.js:172:7)
+185 verbose stack     at maybeClose (internal/child_process.js:829:16)
+185 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
+185 verbose stack     at emitOne (events.js:77:13)
+185 verbose stack     at Socket.emit (events.js:169:7)
+185 verbose stack     at Pipe._onclose (net.js:486:12)
+186 verbose cwd D:\WebstormProjects\rails-angular-karma-example-master
+187 error Windows_NT 6.1.7601
+188 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+189 error node v4.5.0
+190 error npm  v2.15.9
+191 error code 128
+192 error Command failed: git -c core.longpaths=true clone --template=C:\Program Files\nodejs\node_cache\_git-remotes\_templates --mirror git://github.com/monterail/karma-ng-html2js-preprocessor.git C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b
+192 error Cloning into bare repository 'C:\Program Files\nodejs\node_cache\_git-remotes\git-github-com-monterail-karma-ng-html2js-preprocessor-git-98dc077b'...
+192 error fatal: remote error:
+192 error   Repository not found.
+193 error If you need help, you may report this error at:
+193 error     <https://github.com/npm/npm/issues>
+194 verbose exit [ 1, true ]

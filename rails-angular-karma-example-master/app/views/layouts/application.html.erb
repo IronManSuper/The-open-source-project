@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsAngularKarmaExample</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+</head>
+<body ng-app="application">
+
+<%= yield %>
+
+  <%= javascript_include_tag 'application' %>
+  <%= js_env %>
+</body>
+</html>
